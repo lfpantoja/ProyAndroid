@@ -1,6 +1,5 @@
 package com.example.deber4;
 
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -47,4 +46,18 @@ public class MainActivity extends AppCompatActivity {
         outState.putString("mensaje", mensaje);
         super.onSaveInstanceState(outState);
     }
+
+//    @Override
+//    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+//        super.onRestoreInstanceState(savedInstanceState);
+//    }
+
+//    @Override
+//    protected void onPause() {
+//        super.onPause();
+//        if(savedInstanceState != null){
+//            mensaje = savedInstanceState.getString("mensaje");
+//            etiValor.setText(String.valueOf(mensaje));
+//        }
+//    }
 }
